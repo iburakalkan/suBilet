@@ -19,7 +19,7 @@ namespace suBilet
             InitializeComponent();////sdfgsdfg
         }
 
-        SqlConnection connection = new SqlConnection(@"Data Source=MERT\SQLEXPRESS;Initial Catalog=buBilet;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"Data Source=Data Source=BurakAlkan\SQLEXPRESS;Initial Catalog=buBilet;Integrated Security=True;Trust Server Certificate=True;Initial Catalog=buBilet;Integrated Security=True");
         private void frmCreateBusTrip_Load(object sender, EventArgs e)
         {
             datePicker.MinDate= DateTime.Now;

@@ -22,7 +22,7 @@ namespace buBilet
             InitializeComponent();
         }
 
-        SqlConnection connection = new SqlConnection(@"Data Source=MERT\SQLEXPRESS;Initial Catalog=buBilet;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"Data Source=BurakAlkan\SQLEXPRESS;Initial Catalog=buBilet;Integrated Security=True;Trust Server Certificate=True");
 
         private void login_to_register_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

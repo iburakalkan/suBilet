@@ -17,7 +17,7 @@ namespace suBilet
         {
             InitializeComponent();
         }
-        SqlConnection connection = new SqlConnection(@"Data Source=MERT\SQLEXPRESS;Initial Catalog=buBilet;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"Data Source=Data Source=BurakAlkan\SQLEXPRESS;Initial Catalog=buBilet;Integrated Security=True;Trust Server Certificate=True;Initial Catalog=buBilet;Integrated Security=True");
         // identifying user's id num whose logged in
         internal string Id { get; set; }
         private void createBusTrip_Click(object sender, EventArgs e)
